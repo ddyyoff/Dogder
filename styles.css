@@ -1,0 +1,32 @@
+/* Основной стиль для всего приложения */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Стиль для кнопок с иконками */
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 24px;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+/* Картинки для собак */
+img {
+  border-radius: 10px;
+}
+
+/* Мобильные стили */
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+}
